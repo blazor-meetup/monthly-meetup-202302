@@ -1,7 +1,9 @@
 # monthly-meetup-202302
 > 2023년 2월 밋업 자료
 
-![온오프믹스 썸네일 이미지](/images/onoffmix.jpg)
+<p align="center">
+  <img width="460" height="300" src="/images/onoffmix.jpg">
+</p>
 
 ## Repository 내용
 - docs : 발표자료
@@ -9,6 +11,7 @@
 
 ## 시간 및 장소
 2023년 2월 23일 목요일 오후 2시
+서울특별시 서초구 서초대로78길 5(서초동, 대각빌딩), 12층 
 
 ## Sessions
 - WinForm 프로젝트에서 Blazor 프로젝트로 이동하기 - 김진석(케이에이치시스템즈)
