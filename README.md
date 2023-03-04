@@ -1,6 +1,6 @@
 # 2023년 2월 밋업
 <p align="center">
-  <img width="460" height="300" src="/images/onoffmix.jpg">
+  <img src="/images/onoffmix.jpg">
 </p>
 
 ## Repository 내용
