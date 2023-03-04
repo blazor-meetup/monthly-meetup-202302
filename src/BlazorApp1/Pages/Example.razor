@@ -1,0 +1,35 @@
+﻿@page "/example"
+@inject AppState appState
+@implements IDisposable
+
+<h3>Example: @appState.count</h3>
+
+<button @onclick="clickBtn1">버튼1</button>
+<button @onclick="clickBtn2">버튼2</button>
+
+<SubText Text="@args" />
+
+@code {
+    private string args = "클릭전";
+    private void clickBtn1()
+    {
+        args = "버튼1";
+        Console.WriteLine("버튼1클릭");
+        appState.increaseCount();
+    }
+
+    private void clickBtn2()
+    {
+        args = "버튼2";
+        Console.WriteLine("버튼2클릭");
+        appState.decreaseCount();
+    }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        appState.OnChange += StateHasChanged;
+    }
+
+    public void Dispose() => appState.OnChange -= StateHasChanged;
+}
