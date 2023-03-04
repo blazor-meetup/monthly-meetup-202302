@@ -1,6 +1,4 @@
-# monthly-meetup-202302
-> 2023년 2월 밋업 자료
-
+# 2023년 2월 밋업
 <p align="center">
   <img width="460" height="300" src="/images/onoffmix.jpg">
 </p>
